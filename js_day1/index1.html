@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Password Checker</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Strong Password</h1>
+        <input type="password">
+        <div class="btn">Submit</div>
+        <ul class="rules">
+            <li id="length">❌ Minimum 8 characters</li>
+           <li id="uppercase">❌ At least one uppercase letter</li>
+  <li id="number">❌ At least one number</li>
+  <li id="special">❌ At least one special character (!@#$%^&*)</li> 
+        </ul>
+      
+        <p class="message"></p>
+        <p class="error">Password must be at least 8 characters and contain uppercase, number, and special character.</p>
+
+
+    </div>
+</body>
+<script src="index1.js"></script>
+</html>

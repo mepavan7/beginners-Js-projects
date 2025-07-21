@@ -1,0 +1,66 @@
+ body{
+        background-color: violet;
+        margin: 200px 300px;
+       
+
+    }
+
+
+.container{
+background-color: white;
+width: 700px;
+padding: 20px;
+
+border-radius: 10px;
+box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+h1{
+    font-size: 28px;
+    margin: 10px;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: rgba(219, 51, 215);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 500;
+    box-shadow: 2px 2px 4px #00000099;
+    cursor: pointer;
+}
+
+.error {
+  display: none;
+  color: red;
+  font-weight: bold;
+}
+
+
+h3{
+    margin-top: 5px;
+    font-size: 22px;
+
+}
+
+.message{
+    font-size: 18px;
+    color: rgb(44, 29, 255);
+    font-weight: bold;
+    margin-top: -5px;
+
+}
